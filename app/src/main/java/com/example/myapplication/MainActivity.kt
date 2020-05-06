@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         val matrix = Matrix()
         imageView!!.scaleType = ImageView.ScaleType.MATRIX //required
         matrix.postRotate(
-            20.toFloat(),
+            66 .toFloat(),
             imageView.drawable.bounds.width() / 2.toFloat(),
             imageView.drawable.bounds.height() / 2.toFloat()
         )
